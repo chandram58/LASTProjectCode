@@ -1,0 +1,58 @@
+# 
+# [What is this file]
+#   This file associates your repository with your iserver information. If
+#   your iserver information changes, please update this file to reflect
+#   those changes. When changing it, be sure to use spaces when lining 
+#   things up. no tabs please :)
+# 
+# [File Syntax]
+#   
+#   repoMetaData:
+#     version: 1
+#     platform: [ tfs | ado ]
+#     collection: <collection-name>                 # only for tfs
+#     organization: <organization>                  # only for ado, always humana
+#     project: <team-project/project>
+#     repositoryType: [ git | tfvc ]                # ( note: ado is always git )
+#     repository: <repository name>                 # * see note
+#     iserverAssociatedRecords:
+#       - type: [ asset | application | component ]
+#         id: <record-number>
+#         addedBy: <email-of-person-adding-this-link>
+#       - type: [ asset | application | component ]
+#         id: <record-number>
+#         addedBy: <...>
+#       - ...etc...
+
+# * note
+#   ado uses only git, and all its repositories are named
+#   tfs tfvc repositories do not have a name since they are unique to the project
+#   tfs git repos for projects that use a single project-unique git repo,
+#      like /<collection>/_git/<project-name>, should have the repository name
+#      match the project name
+#   tfs git repos that are in a tfs team project that has a tfvs project at its
+#     root will be named, however. /<collection>/<team-project>/_git/<repository>
+
+repoMetaData:
+  version: 1
+  platform: ado
+  organization: humana
+  project: Healthcare Quality and Payer Agnostic
+  repositoryType: git
+  #repository: HERO.Cloud.UI.Angular
+  repository: Admin Dashboard Search and View Worklist/Queue Management
+  iserverAssociatedRecords:
+    - type: asset
+      id: 08277
+      addedBy: dchintalapally@humana.com
+    - type: component
+      #id: 002488
+      id: 004468
+      addedBy: dchintalapally@humana.com
+  serviceNowAssociatedRecords:
+     - type: AppService
+       id: APPSVC053885
+       description: Angular UI code for HERO cloud
+       technology: DotNetCore
+       addedBy: dchintalapally@humana.com
+

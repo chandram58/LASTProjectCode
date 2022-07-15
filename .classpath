@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Selenium/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/poi-3.16/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/JSON Assert Jar/jsonassert-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/JSON Assert Jar/jsonassert-1.5.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/GSON Jar/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Jackson Jar Files/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Jackson Jar Files/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Jackson Jar Files/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Extent Report Jar file/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/FreeMarker Jar file/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="javax.mail"/>
+			<attribute name="maven.artifactId" value="mail"/>
+			<attribute name="maven.version" value="1.4.7"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/crk2305/org.apache.commons.io.jar/org.apache.commons.io.jar/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Log4 j jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Google Guice/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/Velocity Dep jar/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/ReportNg jar/reportng-1.1.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/sqljdbc_8.4/enu/mssql-jdbc-8.4.1.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/crk2305/sikuli-webdriver-1.0.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

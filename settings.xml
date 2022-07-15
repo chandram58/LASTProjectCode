@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <username>vmadabhushi1@humana.com</username>
+      <password>AKCp8jQ8fPi8Shm14aEj9HNStat9V4RjjFJpzgkX1hLb7fg1iEXTLSoY77TGRxiVr3AVxo3z1</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>vmadabhushi1@humana.com</username>
+      <password>AKCp8jQ8fPi8Shm14aEj9HNStat9V4RjjFJpzgkX1hLb7fg1iEXTLSoY77TGRxiVr3AVxo3z1</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>hero-maven-virutal</name>
+          <url>https://humana.jfrog.io/artifactory/hero-maven-virutal</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>hero-maven-virutal</name>
+          <url>https://humana.jfrog.io/artifactory/hero-maven-virutal</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>hero-maven-virutal</name>
+          <url>https://humana.jfrog.io/artifactory/hero-maven-virutal</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>hero-maven-virutal</name>
+          <url>https://humana.jfrog.io/artifactory/hero-maven-virutal</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>
